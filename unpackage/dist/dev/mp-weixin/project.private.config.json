@@ -1,0 +1,30 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "",
+          "pathName": "pages/question/index",
+          "query": "title=%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86&tableName=fe-question",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/question/detail/index",
+          "query": "listIdx=0",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

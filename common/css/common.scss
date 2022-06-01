@@ -1,0 +1,170 @@
+.full-width{
+    width:100%
+}
+.full-height{
+    height: 100%;
+}
+.box{
+    display:flex
+}
+.box-row{
+    flex-direction: row;
+}
+.box-row-center{
+    align-items: center;
+}
+.box-column-center{
+    align-items: center;
+}
+.box-center{
+    justify-content: center;
+    align-items: center;
+}
+.box-between{
+    justify-content: space-between;
+}
+.box-around{
+    justify-content: space-around;
+}
+.pl-5{
+    padding-left: 10rpx;
+}
+.pl-10{
+    padding-left: 20rpx;
+}
+.pl-15{
+    padding-left: 30rpx;
+}
+.pl-20{
+    padding-left: 40rpx;
+}
+.pl-30{
+    padding-left: 60rpx;
+}
+.pr-5{
+    padding-right: 10rpx;
+}
+.pr-10{
+    padding-right: 20rpx;
+}
+.pr-15{
+    padding-right: 30rpx;
+}
+.pr-20{
+    padding-right: 40rpx;
+}
+.pr-30{
+    padding-right: 60rpx;
+}
+.pt-10{
+    padding-top: 20rpx;
+}
+.pt-15{
+    padding-top: 30rpx;
+}
+.pt-20{
+    padding-top: 40rpx;
+}
+.pt-30{
+    padding-top: 60rpx;
+}
+.pb-10{
+    padding-bottom: 20rpx;
+}
+.pb-15{
+    padding-bottom: 30rpx;
+}
+.pb-20{
+    padding-bottom: 40rpx;
+}
+.pb-30{
+    padding-bottom: 60rpx;
+}
+
+
+.ml-10{
+    margin-left: 20rpx;
+}
+.ml-15{
+    margin-left: 30rpx;
+}
+.ml-20{
+    margin-left: 40rpx;
+}
+.ml-30{
+    margin-left: 60rpx;
+}
+.mr-10{
+    margin-right: 20rpx;
+}
+.mr-15{
+    margin-right: 30rpx;
+}
+.mr-20{
+    margin-right: 40rpx;
+}
+.mr-30{
+    margin-right: 60rpx;
+}
+.mt-10{
+    margin-top: 20rpx;
+}
+.mt-15{
+    margin-top: 30rpx;
+}
+.mt-20{
+    margin-top: 40rpx;
+}
+.mt-30{
+    margin-top: 60rpx;
+}
+.mb-10{
+    margin-bottom: 20rpx;
+}
+.mb-15{
+    margin-bottom: 30rpx;
+}
+.mb-20{
+    margin-bottom: 40rpx;
+}
+.mb-30{
+    margin-bottom: 60rpx;
+}
+
+// 字体
+@for $z from 1 to 40 {
+	.f-#{$z} {
+		font-size: $z * 2rpx !important;
+	}
+}
+// 边框圆角
+@for $z from 1 to 40 {
+	.radius-#{$z} {
+		border-radius: $z * 2rpx !important;
+	}
+}
+// width
+@for $z from 1 to 200 {
+	.width-#{$z} {
+		width: $z * 2rpx !important;
+	}
+}
+
+// height
+@for $z from 1 to 200 {
+	.height-#{$z} {
+		height: $z * 2rpx !important;
+	}
+}
+@for $z from 1 to 200 {
+	.p-#{$z} {
+		padding: $z * 2rpx !important;
+	}
+}
+
+@for $z from 1 to 200{
+	.m-#{$z} {
+		margin: $z * 2rpx !important;
+	}
+}
+$gray:#ccc

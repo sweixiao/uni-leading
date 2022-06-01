@@ -1,0 +1,57 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/question/index",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/mine/index",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/question/detail/index",
+			"style": {
+				"navigationBarTitleText": "加载中"
+			}
+		}
+	],
+	"tabBar": {
+		"color": "#cdcdcd",
+		"selectedColor": "#1296db",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tabber/index.png",
+				"selectedIconPath": "static/tabber/index_bright.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/mine/index",
+				"iconPath": "static/tabber/mine.png",
+				"selectedIconPath": "static/tabber/mine_bright.png",
+				"text": "我的"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "前端面试",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+		"easycom": {
+			"^u-(.*)": "@/uni_modules/uview-ui/components/u-$1/u-$1.vue"
+		}
+}
