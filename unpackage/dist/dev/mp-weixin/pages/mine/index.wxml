@@ -1,1 +1,1 @@
-<view class="mine _div data-v-4bd6864f">mine</view>
+<view class="mine _div data-v-4bd6864f"><view data-event-opts="{{[['tap',[['getUser',['$event']]]]]}}" class="box box-center mine-header pt-15 pb-15 data-v-4bd6864f" bindtap="__e"><image class="width-40 height-40 mr-30 _img data-v-4bd6864f" src="{{portrait}}" alt></image><view class="ml-30 data-v-4bd6864f">登录</view></view></view>

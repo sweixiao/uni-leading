@@ -23,6 +23,12 @@
           "pathName": "pages/question/detail/index",
           "query": "listIdx=0",
           "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/mine/index",
+          "query": "",
+          "scene": null
         }
       ]
     }

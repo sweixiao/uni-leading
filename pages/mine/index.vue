@@ -1,13 +1,28 @@
 <template>
-  <div class="mine">mine</div>
+  <div class="mine">
+    <view class="box box-center mine-header pt-15 pb-15" @click="getUser">
+      <img
+        :src="portrait"
+        alt=""
+        class="width-40 height-40 mr-30"
+      />
+      <view class="ml-30">登录</view>
+    </view>
+  </div>
 </template>
 
 <script>
 export default {
   components: {},
-  data: () => ({}),
+  data: () => ({
+	portrait:'../../static/tabber/mine.png'
+  }),
   computed: {},
-  methods: {},
+  methods: {
+    getUser() {
+		this.$getUser();
+    },
+  },
   watch: {},
 
   // 页面周期函数--监听页面加载
@@ -28,7 +43,11 @@ export default {
   // onPageScroll(event) {},
   // 页面处理函数--用户点击右上角分享
   // onShareAppMessage(options) {},
-} 
+};
 </script>
 
-<style scoped></style>
+<style scoped lang='scss'>
+.mine-header{
+  background: #fff;
+}
+</style>
